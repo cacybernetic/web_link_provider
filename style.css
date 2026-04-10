@@ -1,23 +1,17 @@
 /**
  * @organization: Console Art Cybernetic - https://cacybernetic.github.io
- * @fileoverview: The main controller of the page.
  * @author: Obrymec - https://obrymec.vercel.app
+ * @fileoverview: The main controller of page.
  * @supported: DESKTOP, MOBILE
  * @created: 2025-02-10
- * @updated: 2026-03-26
+ * @updated: 2026-04-10
  * @file: style.css
- * @version: 0.0.2
+ * @version: 0.0.3
  */
 
 /** Loader */
 svg {
   animation: RotationAnimation 400ms linear 0ms infinite normal forwards;
-}
-
-/** Body */
-body {
-  background-color: aliceblue;
-  color: #343434;
 }
 
 /** Hide an element */
@@ -26,9 +20,25 @@ body {
   opacity: 0;
 }
 
+/** Body */
+body {
+  background-color: aliceblue;
+  color: #343434;
+  padding: 16px;
+}
+
+/** Description */
+span.description {
+  font-weight: normal !important;
+  line-height: 20px;
+  font-size: 14px;
+  width: 272px;
+}
+
 /** Label */
 span {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
   user-select: none;
   font-weight: bold;
   font-size: larger;
@@ -46,10 +56,10 @@ span {
 /** Main container */
 div {
   transform: translate(-50%, -50%);
-  transition: all .2s linear;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  transition: all .2s;
   position: fixed;
   row-gap: 24px;
   display: flex;
