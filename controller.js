@@ -4,9 +4,9 @@
  * @fileoverview The main controller of page.
  * @supported DESKTOP, MOBILE
  * @created 2025-02-10
- * @updated 2026-03-28
+ * @updated 2026-05-16
  * @file controller.js
- * @version 0.0.6
+ * @version 0.0.7
  */
 
 // Global attributes.
@@ -18,12 +18,13 @@ const sourceNotFound = (
 const jsonFilePaths = [
   "african_female_soldier_blender",
   "african_female_soldier_godot",
-  "destroyed_cars_blender_vol1",
-  "destroyed_cars_godot_vol1",
-  "buildings_blender_vol1",
-  "buildings_blender_vol2",
-  "buildings_godot_vol1",
-  "buildings_godot_vol2",
+  "destroyed_cars_blender_vol_1",
+  "destroyed_cars_godot_vol_1",
+  "buildings_blender_vol_1",
+  "buildings_blender_vol_2",
+  "buildings_godot_vol_1",
+  "buildings_godot_vol_2",
+  "axes_blender_vol_1",
   "assets_banks",
   "sketchfab",
   "networks"
