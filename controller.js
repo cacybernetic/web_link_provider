@@ -4,7 +4,7 @@
  * @fileoverview The main controller of page.
  * @supported DESKTOP, MOBILE
  * @created 2025-02-10
- * @updated 2026-06-19
+ * @updated 2026-08-21
  * @file controller.js
  * @version 0.0.8
  */
@@ -24,6 +24,7 @@ const jsonFilePaths = [
   "buildings_blender_vol_2",
   "buildings_godot_vol_1",
   "buildings_godot_vol_2",
+  "bags_blender_vol_1",
   "axes_blender_vol_1",
   "axes_godot_vol_1",
   "assets_banks",
